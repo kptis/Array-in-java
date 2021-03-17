@@ -73,6 +73,9 @@ public class Main {
                 b[i] = arr[i][j];
             }
             IncreBubbleSort(b);
+            for (int i = 0; i < arr.length; i++) {
+                arr[i][j]=b[i];
+            }
         }
     }
 
